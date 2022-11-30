@@ -22,5 +22,5 @@ Route::get('/', function () {
 
 
 Route::get('/myview',[myController:: class, 'index']);
-Route::get('/test',[testController:: class, 'test']);
+Route::get('/layout',[testController:: class, 'layout']);
 

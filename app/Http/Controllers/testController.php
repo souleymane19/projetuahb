@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class testController extends Controller
 {
-    function test(){
+    function layout(){
         return view('layout');
     }
 }
